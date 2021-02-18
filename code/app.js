@@ -36,13 +36,19 @@ fetch(capeTownWeather)
 
     weatherSection.innerHTML = `
     <div class="current-weather">
-      <div>
-        <h2 class="current-temp">${tempTodayRounded} <span class="celsius">°C</span> </h2>
-        <h1>${cityName}</h1>  
-        <h3>${weatherDescription} </h3>
+      <div class="hamburger-container">
+        <img class="hamburger-menu" src="hamburger.svg">
       </div>
-      <div class="weather-icon">
+      <div class="current-temp-and-icon">
+        <h2 class="current-temp">${tempTodayRounded}</h2>
+        <p class="celsius">°C</p> 
+        <div class="weather-icon">
         <img class="current-icon" src="http://openweathermap.org/img/wn/${iconId}@2x.png">
+      </div>
+    </div>
+      <div>
+        <h1 class="city-name">${cityName}</h1>  
+        <h3 class="weather-description">${weatherDescription} </h3>
       </div>
     </div>
     <div class="sunrise-sunset">
