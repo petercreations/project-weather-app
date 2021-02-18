@@ -1,0 +1,48 @@
+body {
+  height: 100vh;
+}
+
+.weather-container {
+}
+
+.forecast {
+}
+
+.five-day-forecast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.current-temp {
+  font-size: 50px;
+}
+
+.celsius {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.sunrise-sunset {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px 100px 20px;
+}
+
+/* Weather Icons */
+.current-icon {
+  width: 200px;
+}
+
+.forecast-icon {
+  width: 15%;
+}
